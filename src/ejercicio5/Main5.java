@@ -13,6 +13,7 @@ public class Main5 {
 		n=sc.nextInt();
 		
 		Funcion5.tablamulti(n);
+		sc.close();
 
 	}
 

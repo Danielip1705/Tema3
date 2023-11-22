@@ -6,6 +6,7 @@ public class Main4 {
 
 	public static void main(String[] args) {
 		String caracter;
+		boolean res;
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -13,7 +14,12 @@ public class Main4 {
 		
 		caracter= sc.next();
 		
-		Funcion4.vocal(caracter);
+		res=Funcion4.vocal(caracter);
+		if (res==true) {
+			System.out.println("Es una vocal");
+		} else {
+			System.out.println("No es una vocal");
+		}
 		
 		sc.close();
 	}
