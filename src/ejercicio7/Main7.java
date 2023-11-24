@@ -13,13 +13,12 @@ public class Main7 {
 		num = sc.nextInt();
 
 		res = Funcion7.esPrimo(num);
-
-		if (res = true) {
-			System.out.println("El numero es primo");
+		if (res) {
+			System.out.println("Es primo");
 		} else {
-			System.out.println("El numero no es primo");
+			System.out.println("No es primo");
 		}
-
+		
 		sc.close();
 
 	}
